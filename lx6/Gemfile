@@ -1,0 +1,17 @@
+
+source 'https://rubygems.org'
+
+gem 'bundler'
+gem 'serverspec'
+gem 'fpm'
+gem 'jgrep'
+gem 'puppet-lint'
+# disabled; requires ruby >= 1.9
+# gem 'overcommit'
+
+# disabled, requires ruby >= 1.099
+#gem 'r10k'
+
+
+# Lock to version provided by RedHat 7
+gem 'json', '1.7.7'
