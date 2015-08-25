@@ -1,0 +1,13 @@
+
+source 'https://rubygems.org'
+
+gem 'serverspec'
+gem 'fpm'
+gem 'jgrep'
+gem 'puppet-lint'
+gem 'overcommit'
+gem 'r10k'
+
+
+# Lock to version provided by RedHat
+gem 'json', '1.7.7'
