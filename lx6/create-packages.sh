@@ -2,6 +2,10 @@
 
 set -e 
 
+rpm -q which >/dev/null 2>&1 || yum install which -y -q
+rpm -q git >/dev/null 2>&1 || yum install git -y -q
+rpm -q vim >/dev/null 2>&1 || yum install vim -y -q
+
 if ! which gem; then
   yum install rubygems -y
 fi
