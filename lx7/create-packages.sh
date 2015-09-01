@@ -7,6 +7,8 @@ if ! which bundle; then
 fi
 
 rpm -q make >/dev/null 2>&1 || yum install -y -q make
+rpm -q vim >/dev/null 2>&1 || yum install -y -q vim 
+rpm -q rpm-build >/dev/null 2>&1 || yum install -y -q rpm-build
 rpm -q ruby-devel >/dev/null 2>&1 || yum install ruby-devel -y -q
 rpm -q gcc >/dev/null 2>&1 || yum install gcc -y -q
 
