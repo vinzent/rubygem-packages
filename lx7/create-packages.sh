@@ -6,6 +6,7 @@ if ! which bundle; then
   yum install rubygem-bundler -y
 fi
 
+rpm -q make >/dev/null 2>&1 || yum install -y -q make
 rpm -q ruby-devel >/dev/null 2>&1 || yum install ruby-devel -y -q
 rpm -q gcc >/dev/null 2>&1 || yum install gcc -y -q
 
