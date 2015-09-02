@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# start centos6 with docker:
+# docker run -i -t -v $path-to-git-repo:/data centos:centos6 /bin/bash --login
+
 set -e 
 
 rpm -q which >/dev/null 2>&1 || yum install which -y -q

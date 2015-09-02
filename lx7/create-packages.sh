@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# start centos7 with docker:
+# docker run -i -t -v $path-to-git-repo:/data centos:centos7 /bin/bash --login
+
 set -e 
 
 if ! which bundle; then
