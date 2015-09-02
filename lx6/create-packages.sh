@@ -25,7 +25,7 @@ fi
 bundle package
 
 find vendor/cache -name '*.gem' | xargs -rn1 fpm -d ruby -d rubygems \
-  --prefix /usr/share/gems \
+  --prefix /usr/lib/ruby/gems/1.8 \
   --gem-bin-path /usr/bin \
-  --epoch 0 --iteration 0.el6 -s gem -t rpm
+  --epoch 0 --iteration 1.el6 -s gem -t rpm
 
