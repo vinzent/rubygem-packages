@@ -7,6 +7,9 @@ gem 'jgrep'
 gem 'puppet-lint'
 gem 'overcommit'
 gem 'r10k'
+gem 'overcommit'
+gem 'ruby-lint'
+gem 'rubocop'
 
 
 # Lock to version provided by RedHat
