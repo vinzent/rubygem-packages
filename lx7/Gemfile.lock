@@ -100,6 +100,7 @@ GEM
       net-ssh (~> 2.7)
       net-telnet
       sfl
+    yard (0.8.7.6)
 
 PLATFORMS
   ruby
@@ -114,3 +115,4 @@ DEPENDENCIES
   rubocop
   ruby-lint
   serverspec
+  yard

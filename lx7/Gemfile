@@ -10,6 +10,7 @@ gem 'r10k'
 gem 'overcommit'
 gem 'ruby-lint'
 gem 'rubocop'
+gem 'yard'
 
 
 # Lock to version provided by RedHat
