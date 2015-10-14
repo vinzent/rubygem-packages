@@ -88,14 +88,14 @@ GEM
       slop (~> 3.4, >= 3.4.7)
     ruby-progressbar (1.7.5)
     semantic_puppet (0.1.1)
-    serverspec (2.23.0)
+    serverspec (2.24.1)
       multi_json
       rspec (~> 3.0)
       rspec-its
       specinfra (~> 2.43)
     sfl (2.2)
     slop (3.6.0)
-    specinfra (2.43.0)
+    specinfra (2.44.0)
       net-scp
       net-ssh (~> 2.7)
       net-telnet
