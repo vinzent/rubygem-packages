@@ -7,10 +7,11 @@ gem 'jgrep'
 gem 'puppet-lint'
 gem 'overcommit'
 gem 'r10k'
-gem 'overcommit'
 gem 'ruby-lint'
 gem 'rubocop'
 gem 'yard'
+gem 'concurrent-ruby'
+gem 'rest-client'
 
 
 # Lock to version provided by RedHat
