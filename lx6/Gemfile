@@ -11,7 +11,9 @@ gem 'puppet-lint'
 # but already 2.3.0 does not work with 1.8.7
 gem 'httpi', '<2.3.0'
 
-gem 'curb'
+# 0.9.2 and 0.9.3 (latest right now) throws RuntimeError on every request
+# Issue: https://github.com/taf2/curb/issues/304
+gem 'curb', '<0.9.2'
 
 # disabled; requires ruby >= 1.9
 # gem 'overcommit'
