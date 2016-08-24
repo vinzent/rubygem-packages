@@ -6,12 +6,25 @@ gem 'serverspec'
 gem 'fpm'
 gem 'jgrep'
 gem 'puppet-lint'
+
+# >= 2.4.0 requires at least ruby 1.9.2
+gem 'httpi', '<2.4.0'
+
+gem 'curb'
+
 # disabled; requires ruby >= 1.9
 # gem 'overcommit'
 
 # disabled, requires ruby >= 1.099
 #gem 'r10k'
 
+# -----------------------------------------------------------------------------
+# Locks for dependencies
+# -----------------------------------------------------------------------------
 
 # Lock to version provided by RedHat 7
 gem 'json', '1.7.7'
+
+# rack >= 2.0.0 is not compatible with EL6 ruby
+gem 'rack', '<2.0.0'
+
