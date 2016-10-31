@@ -31,3 +31,5 @@ gem 'json', '1.7.7'
 # rack >= 2.0.0 is not compatible with EL6 ruby
 gem 'rack', '<2.0.0'
 
+# 2.10 upwards is not compatible with Ruby 1.8.7 from EL6
+gem 'net-ssh', '<2.10.0'
