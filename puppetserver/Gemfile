@@ -1,0 +1,8 @@
+
+source 'https://rubygems.org'
+
+gem 'r10k'
+gem 'trocla'
+
+# provided by puppet-agent
+eval File.read('Gemfile.puppetprovided'), nil, 'Gemfile.puppetprovided'
