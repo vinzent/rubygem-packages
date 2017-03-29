@@ -15,6 +15,10 @@ gem 'rest-client'
 gem 'httpi'
 gem 'curb'
 
+git 'https://github.com/vinzent/onceover.git', :branch => 'json_el7_compat' do
+  gem 'onceover'
+end
+
 # required by swagger client
 gem 'typhoeus'
 
